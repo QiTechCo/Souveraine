@@ -364,6 +364,7 @@ pub struct ChatState {
     /// when a non-token event (tool call/result, or a new pass) arrives.
     pub subconscious_current: String,
 
+
     /// Current itinerary route-line for the header strip.
     /// Empty string means no active itinerary.
     pub itinerary_line: String,
